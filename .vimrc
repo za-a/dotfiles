@@ -1,5 +1,5 @@
 if empty(glob("~/.vim/autoload/plug.vim"))
-   !sh "$HOME/dotfiles/check.sh"
+   !sh "$HOME/check.sh"
 endif
 
 call plug#begin('~/.vim/plugged')
