@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="$HOME/.vim/autoload/lug.vim"
+FILE="$HOME/.vim/autoload/plug.vim"
 if [[ -f $FILE ]];then
     echo "vim-plug is installed"
 else
