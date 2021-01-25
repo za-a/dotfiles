@@ -10,6 +10,6 @@ fi
 
 cp $HOME/{.zshrc,.vimrc,check.sh} 
 
-git add . 
+git add -u 
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
 git push
