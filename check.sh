@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#vim-plug installation check
 FILE="$HOME/.vim/autoload/plug.vim"
 if [[ -f $FILE ]];then
     echo "vim-plug is installed"
@@ -10,3 +10,4 @@ else
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 fi
+

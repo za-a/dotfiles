@@ -2,8 +2,11 @@ if empty(glob("~/.vim/autoload/plug.vim"))
    !sh "$HOME/check.sh"
 endif
 
-call plug#begin('~/.vim/plugged')
+if empty(glob("~/.vim/colors/gruvbox.vim"))
+    !sh "$HOME/gruvboxcheck.sh"
+endif
 
+call plug#begin('~/.vim/plugged')
 
 call plug#end()
 
