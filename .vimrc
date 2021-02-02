@@ -15,6 +15,7 @@ set nu relativenumber
 set ruler
 set linebreak
 set showbreak=↳ "linebreak symbol
+set confirm
 
 syntax enable 
 set background=dark
