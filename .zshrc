@@ -18,3 +18,7 @@ mkcd () {
 	mkdir "$1"
 	cd "$1"
 }
+tvim (){
+    touch "$1"
+    vim "$1"
+}
