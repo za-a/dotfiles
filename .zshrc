@@ -8,6 +8,7 @@ alias ls="ls -FAG"
 alias zshrc="vim $HOME/.zshrc"
 alias vimrc="vim $HOME/.vimrc"
 
+alias nnn="nnn -e"
 updcfg () {
     cd "$HOME/dotfiles"
     sh "$HOME/dotfiles/backup.sh"
