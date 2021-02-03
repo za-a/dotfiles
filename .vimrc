@@ -1,9 +1,5 @@
-if empty(glob("~/.vim/autoload/plug.vim"))
-   !sh "$HOME/check.sh"
-endif
-
-if empty(glob("~/.vim/colors/gruvbox.vim"))
-    !sh "$HOME/gruvboxcheck.sh"
+if empty(glob("$HOME/.vim/autoload/plug.vim"))
+   !sh "$HOME/dotfiles/check.sh"
 endif
 
 call plug#begin('~/.vim/plugged')
@@ -18,8 +14,8 @@ set showbreak=↳ "linebreak symbol
 set confirm
 
 syntax enable 
-set background=dark
-colorscheme gruvbox
+set background=light
+colorscheme onehalflight
 set wildmode=list:longest
 set wildmenu
 set cursorline
@@ -34,4 +30,3 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
