@@ -1,8 +1,10 @@
 if empty(glob("$HOME/.vim/autoload/plug.vim"))
-   !sh "$HOME/dotfiles/check.sh"
+   !sh "$HOME/dotfiles/vimPlugCheck.sh"
 endif
 
 call plug#begin('~/.vim/plugged')
+
+Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 
