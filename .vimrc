@@ -5,6 +5,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'ayu-theme/ayu-vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 call plug#end()
 
