@@ -4,6 +4,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
@@ -18,7 +19,7 @@ set confirm
 
 syntax enable 
 set background=dark
-colorscheme onehalfdark
+colorscheme gruvbox
 set wildmode=list:longest
 set wildmenu
 set cursorline
