@@ -17,8 +17,8 @@ set showbreak=↳ "linebreak symbol
 set confirm
 
 syntax enable 
-set background=light
-colorscheme onehalflight
+set background=dark
+colorscheme onehalfdark
 set wildmode=list:longest
 set wildmenu
 set cursorline
