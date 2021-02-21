@@ -5,8 +5,6 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-surround'
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
 Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
