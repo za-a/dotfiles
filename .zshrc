@@ -1,5 +1,7 @@
-PS1="%F{yellow}%d%f
-%n →  "
+PS1="
+%F{26}Folder%f: %d
+%F{green}user:%f %n
+%F{208}=＞ %f"
 
 alias INF="cd '$HOME/Desktop/INF'"
 alias v="mvim"
