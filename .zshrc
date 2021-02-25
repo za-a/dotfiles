@@ -10,17 +10,21 @@ alias ls="ls -FAG"
 alias zshrc="vim $HOME/.zshrc"
 alias vimrc="vim $HOME/.vimrc"
 
-alias nnn="nnn -H"
-
 updcfg () {
     cd "$HOME/dotfiles"
-    sh "$HOME/dotfiles/backup.sh"
+    sh "./backup.sh"
+}
+
+unbackup () {
+    cd "$HOME/dotfiles"
+    sh "./unbackup.sh"
 }
 
 mkcd () {
 	mkdir "$1"
 	cd "$1"
 }
+
 tvim (){
     touch "$1"
     vim "$1"

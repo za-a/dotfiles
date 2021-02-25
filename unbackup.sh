@@ -1,1 +1,1 @@
-cp ./{.zshrc, .vimrc} $HOME/
+cp $HOME/dotfiles/{.zshrc,.vimrc} $HOME
