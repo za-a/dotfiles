@@ -5,6 +5,7 @@ endif
 " PLUGINS
 call plug#begin('~/.vim/plugged')
 
+"SILLY UPDATE
 Plug 'stillwwater/vim-nebula'
 Plug 'junegunn/goyo.vim'
 Plug 'keelii/vim-snippets'
