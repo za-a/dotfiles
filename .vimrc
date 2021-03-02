@@ -4,13 +4,29 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'stillwwater/vim-nebula'
+Plug 'junegunn/goyo.vim'
+Plug 'keelii/vim-snippets'
+Plug 'SirVer/ultisnips'
+Plug 'lervag/vimtex'
 Plug 'lyokha/vim-xkbswitch'
 Plug 'tpope/vim-surround'
 Plug 'morhetz/gruvbox'
-Plug 'ayu-theme/ayu-vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 call plug#end()
+
+
+if has("gui_running")
+    if has('termguicolors')
+        set termguicolors
+    endif
+    set background=light
+    colorscheme onehalflight
+else
+    set background=light
+    colorscheme nebula
+endif
 
 set nocompatible
 set nu relativenumber
@@ -28,9 +44,7 @@ let g:XkbSwitchLib = '/usr/local/lib/libInputSourceSwitcher.dylib' "custom switc
 "switcher for Linux: https://github.com/grwlf/xkb-switch
 "switcher for Mac: https://github.com/vovkasm/input-source-switcher
 
-syntax enable 
-set background=light
-colorscheme onehalflight
+syntax enable
 set wildmenu
 set wildmode=longest:full,full
 set cursorline
@@ -45,3 +59,6 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+let g:UltiSnipsExpandTrigger="<tab>"
+
