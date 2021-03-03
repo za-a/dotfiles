@@ -8,7 +8,8 @@ else
   exit 1
 fi
 
-cp $HOME/{.zshrc,.vimrc} .
+cp -r $HOME/.vim/init .
+cp $HOME/.vim/init/vimrc .
 
 git add . 
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
