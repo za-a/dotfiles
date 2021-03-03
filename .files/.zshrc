@@ -8,7 +8,7 @@ alias v="mvim"
 alias ls="ls -FAG"
 
 alias zshrc="vim $HOME/.zshrc"
-alias vimrc="vim $HOME/.vimrc"
+alias vimrc="vim $HOME/.vim/vimrc"
 
 updcfg () {
     cd "$HOME/dotfiles"
