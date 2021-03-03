@@ -5,7 +5,6 @@ endif
 " PLUGINS
 call plug#begin('~/.vim/plugged')
 
-Plug 'lifepillar/vim-solarized8'
 Plug 'stillwwater/vim-nebula'
 Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
