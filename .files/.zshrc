@@ -5,19 +5,15 @@ PS1="
 
 alias INF="cd '$HOME/Desktop/INF'"
 alias v="mvim"
-alias ls="ls -FAG"
+alias ls="ls -FAG1"
 
+alias skhdrc="vim $HOME/.config/skhd/skhdrc"
 alias zshrc="vim $HOME/.zshrc"
 alias vimrc="vim $HOME/.vim/vimrc"
 
 updcfg () {
     cd "$HOME/dotfiles"
     sh "./backup.sh"
-}
-
-unbackup () {
-    cd "$HOME/dotfiles"
-    sh "./unbackup.sh"
 }
 
 mkcd () {

@@ -8,6 +8,7 @@ else
   exit 1
 fi
 
+cp -r $HOME/.config/skhd .files/.config
 cp -r $HOME/.vim/init .files/.vim
 cp $HOME/.vim/vimrc .files/.vim
 cp $HOME/.zshrc .files

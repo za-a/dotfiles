@@ -1,5 +1,7 @@
 set guifont=Menlo:h15
+
 syntax enable
+
 if has("gui_running")
     if has('termguicolors')
         set termguicolors

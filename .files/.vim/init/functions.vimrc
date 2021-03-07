@@ -13,27 +13,28 @@ fun! Start()
     setlocal
         \ bufhidden=wipe
         \ buftype=nofile
-        \ nobuflisted
-        \ nocursorcolumn
-        \ nocursorline
-        \ nolist
-        \ nonumber
-        \ noswapfile
-        \ norelativenumber
+        " \ nobuflisted
+        " \ nocursorcolumn
+        " \ nocursorline
+        " \ nolist
+        " \ nonumber
+        " \ noswapfile
+        " \ norelativenumber
 
     " Now we can just write to the buffer, whatever you want.
-    call append('$', "")
+    call append('$',"")
     " for line in split(system('fortune -a'), '\n')
     "     call append('$', '        ' . l:line)
     " endfor
 
     " No modifications to this buffer
-    setlocal nomodifiable nomodified
+    " setlocal nomodifiable nomodified
 
     " When we go to insert mode start a new buffer, and start insert
-    nnoremap <buffer><silent> e :enew<CR>
-    nnoremap <buffer><silent> i :enew <bar> startinsert<CR>
-    nnoremap <buffer><silent> o :enew <bar> startinsert<CR>
+    " nnoremap <buffer><silent> e :enew<CR>
+    " nnoremap <buffer><silent> i :enew <bar> startinsert<CR>
+    " nnoremap <buffer><silent> o :enew <bar> startinsert<CR>
+    " nnoremap <buffer><silent> a :enew <bar> startinsert<CR>
 endfun
 
 " Run after "doing all the startup stuff"
