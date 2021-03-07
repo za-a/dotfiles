@@ -12,6 +12,8 @@ cp -r $HOME/.config/skhd .files/.config
 cp -r $HOME/.vim/init .files/.vim
 cp $HOME/.vim/vimrc .files/.vim
 cp $HOME/.zshrc .files
+cp $HOME/.gitconfig .files
+cp $HOME/.gitignore_global .files
 
 git add . 
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
