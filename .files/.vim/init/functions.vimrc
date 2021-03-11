@@ -12,13 +12,13 @@ fun! Start()
     " ... and set some options for it
     setlocal
         \ bufhidden=wipe
-        \ buftype=nofile
+        " \ buftype=nofile
         " \ nobuflisted
         " \ nocursorcolumn
         " \ nocursorline
         " \ nolist
         " \ nonumber
-        " \ noswapfile
+        \ noswapfile
         " \ norelativenumber
 
     " Now we can just write to the buffer, whatever you want.
