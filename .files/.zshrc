@@ -1,11 +1,8 @@
-PS1="
-%F{26}Folder%f: %d
-%F{green}user:%f %n
-%F{208}＞ %f"
+PS1="%* | %D{%A %d %B %G}
+in %d
+%F{208}%n ＞ %f"
 
-alias INF="cd '$HOME/Desktop/INF'"
-alias v="mvim"
-alias ls="ls -FAG1"
+alias ls="ls -FAG"
 
 alias skhdrc="vim $HOME/.config/skhd/skhdrc"
 alias zshrc="vim $HOME/.zshrc"
