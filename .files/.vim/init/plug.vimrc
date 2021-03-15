@@ -5,16 +5,16 @@ endif
 " PLUGINS
 call plug#begin('~/.vim/plugged')
 
-Plug 'stillwwater/vim-nebula'
 Plug 'morhetz/gruvbox'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'huyvohcmc/atlas.vim'
+Plug 'kkga/vim-envy'
 
 Plug 'junegunn/goyo.vim'
-Plug 'keelii/vim-snippets'
-Plug 'SirVer/ultisnips'
-Plug 'lervag/vimtex'
 Plug 'lyokha/vim-xkbswitch'
 Plug 'tpope/vim-surround'
+" Plug 'keelii/vim-snippets'
+" Plug 'SirVer/ultisnips'
+" Plug 'lervag/vimtex'
 " Plug 'arp242/startscreen.vim'
 
 call plug#end()

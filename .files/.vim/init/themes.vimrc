@@ -1,18 +1,7 @@
 set guifont=Menlo:h15
-
-syntax enable
-
-if has("gui_running")
-    if has('termguicolors')
-        set termguicolors
-    endif
-    set background=light
-    colorscheme onehalflight
-else
-    set background=light
-    colorscheme nebula
-endif
-
+syntax on
+set nohlsearch
+set t_Co=0
 " LINES STYLE
 set linebreak
 set showbreak=↳ "linebreak symbol

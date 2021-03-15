@@ -1,8 +1,7 @@
-PS1="%* | %D{%A %d %B %G}
-in %d
-%F{208}%n ＞ %f"
+PS1="                               %* | %D{%A %d %B %G}
+%F{208}%n%f in %d > "
 
-alias ls="ls -FAG"
+alias ls="ls -FA"
 
 alias skhdrc="vim $HOME/.config/skhd/skhdrc"
 alias zshrc="vim $HOME/.zshrc"
@@ -22,3 +21,5 @@ tvim (){
     touch "$1"
     vim "$1"
 }
+
+alias brewrm="brew uninstall --zap"
