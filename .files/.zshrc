@@ -3,10 +3,15 @@ PS1="                            %* | %D{%A %d %B %G}
 
 alias ls="ls -FA"
 
-alias skhdrc="vim $HOME/.config/skhd/skhdrc"
+# alias skhdrc="vim $HOME/.config/skhd/skhdrc"
 alias zshrc="vim $HOME/.zshrc"
 alias vimrc="vim $HOME/.vim/vimrc"
 
+skhdrc () {
+    vim $HOME/.config/skhd/skhdrc
+    brew services stop skhd
+    brew services start skhd
+}
 updcfg () {
     cd "$HOME/dotfiles"
     sh "./backup.sh"

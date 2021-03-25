@@ -8,6 +8,7 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set mouse=a
 set confirm     " Confirm quitting without saving the file
 
 set incsearch   " Incremental search
