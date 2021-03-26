@@ -6,6 +6,7 @@ set t_Co=0
 set linebreak
 set showbreak=↳ "linebreak symbol
 set cursorline
+set ruler
 
 " FILE BROWSER
 let g:netrw_banner = 0
