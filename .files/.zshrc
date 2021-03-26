@@ -1,7 +1,7 @@
 PS1="                            %* | %D{%A %d %B %G}
 %F{208}%n%f in %d > "
 
-alias ls="ls -FA"
+alias ls="ls -FAG"
 
 # alias skhdrc="vim $HOME/.config/skhd/skhdrc"
 alias zshrc="vim $HOME/.zshrc"
