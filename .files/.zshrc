@@ -1,4 +1,4 @@
-PS1="                            %* | %D{%A %d %B %G}
+PS1="                            %F{4}%* | %D{%A %d %B %G}%f
 %F{208}%n%f in %d > "
 
 alias ls="ls -FAG"
