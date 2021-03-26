@@ -15,6 +15,7 @@ skhdrc () {
 updcfg () {
     cd "$HOME/dotfiles"
     sh "./backup.sh"
+    cd $HOME
 }
 
 mkcd () {
