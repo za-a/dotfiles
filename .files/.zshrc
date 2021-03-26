@@ -13,9 +13,10 @@ skhdrc () {
     brew services start skhd
 }
 updcfg () {
+    a = $PWD
     cd "$HOME/dotfiles"
     sh "./backup.sh"
-    cd $HOME
+    cd a
 }
 
 mkcd () {
