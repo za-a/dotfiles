@@ -1,4 +1,4 @@
-alt + shift - t : open /System/Applications/Utilities/Terminal.app
-alt + shift - v : open /System/Volumes/Data/Applications/RiseupVPN.app 
-alt + shift - c : open /System/Volumes/Data/Applications/Chromium.app 
-alt + shift - b : open /System/Volumes/Data/Applications/Tor\ Browser.app 
+alt + shift - t : open -a /System/Applications/Utilities/Terminal.app
+alt + shift - v : open -a /Applications/RiseupVPN.app 
+alt + shift - c : open -a /Applications/Chromium.app 
+alt + shift - f : open -a '/Applications/Nimble Commander.app'

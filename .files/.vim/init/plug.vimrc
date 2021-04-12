@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'huyvohcmc/atlas.vim'
-Plug 'kkga/vim-envy'
+Plug 'gyim/vim-boxdraw'
 
 Plug 'junegunn/goyo.vim'
 Plug 'lyokha/vim-xkbswitch'
