@@ -8,6 +8,8 @@ alias zshrc="vim $HOME/.zshrc"
 alias vimrc="vim $HOME/.vim/vimrc"
 alias brewrm="brew uninstall --zap"
 
+alias unquarantine="sudo xattr -r -d com.apple.quarantine "
+
 updcfg () {
     cd "$HOME/dotfiles"
     sh "./backup.sh"
