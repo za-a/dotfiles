@@ -11,6 +11,7 @@ set shiftwidth=4
 set expandtab
 
 set mouse=a
+set macmeta
 
 set confirm     " Confirm quitting without saving the file
 

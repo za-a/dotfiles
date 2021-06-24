@@ -1,6 +1,7 @@
-set guifont=Menlo:h15
+set guifont=Monaco:h16
+set noantialias
 syntax on
-set nohlsearch
+set hlsearch
 set t_Co=0
 " LINES STYLE
 set linebreak
@@ -22,3 +23,5 @@ function! ChangeBackground()
     set background=light  " for light version of theme
   endif
 endfunction
+
+call ChangeBackground()
