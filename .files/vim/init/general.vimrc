@@ -21,8 +21,17 @@ set smartcase   " Automatically switch to case-sensitive when query contains an 
 
 set autochdir   " Change working directory to current files'
 set wildmenu
-set wildmode=longest:full,full
+" set wildmode=longest:full,full
+set wildmode=longest,full
 
+if !isdirectory($HOME."/.vim")
+    call mkdir($HOME."/.vim", "", 0770)
+endif
+if !isdirectory($HOME."/.vim/undo-dir")
+    call mkdir($HOME."/.vim/undo-dir", "", 0700)
+endif
+set undodir=~/.vim/undo-dir
+set undofile
 set undodir=~/.vim/undodir
 set undofile
 set undolevels=1000 "maximum number of changes that can be undone
