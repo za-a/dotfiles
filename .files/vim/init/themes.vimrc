@@ -19,8 +19,10 @@ let g:netrw_winsize = 25
 function! ChangeBackground()
   if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'
     set background=dark   " for dark version of theme
+    color menguless
   else
     set background=light  " for light version of theme
+    color IDLE
   endif
 endfunction
 

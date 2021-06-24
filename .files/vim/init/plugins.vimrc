@@ -18,6 +18,7 @@ endif
 " Install plugins
 call plug#begin('~/.vim/plugged')
 
+Plug 'vim-scripts/IDLE'
 Plug 'jiangmiao/auto-pairs'
 Plug 'HellRok/Fruidle'
 Plug 'zekzekus/menguless'
