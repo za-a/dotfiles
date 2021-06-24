@@ -8,6 +8,8 @@
 #  exit 1
 #fi
 
+git config --global core.excludesfile ~/.gitignore_global
+
 cp -r $HOME/.config/skhd .files/.config
 # cp -r $HOME/.vim/init .files/.vim
 cp -r $HOME/.vim/ .files/vim
