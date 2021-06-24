@@ -10,7 +10,7 @@
 
 cp -r $HOME/.config/skhd .files/.config
 # cp -r $HOME/.vim/init .files/.vim
-cp -r $HOME/.vim .files/.vim
+cp -r $HOME/.vim/ .files/vim
 cp $HOME/.zshrc .files
 cp $HOME/.gitconfig .files
 cp $HOME/.gitignore_global .files
