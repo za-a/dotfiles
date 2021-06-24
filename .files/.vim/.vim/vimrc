@@ -1,0 +1,5 @@
+source $HOME/.vim/init/themes.vimrc             " themes settings
+source $HOME/.vim/init/general.vimrc            " general settings
+source $HOME/.vim/init/plugins.vimrc            " plugins settings
+source $HOME/.vim/init/keys.vimrc               " keybindings settings
+source $HOME/.vim/init/languageSwitch.vimrc     " language settings
