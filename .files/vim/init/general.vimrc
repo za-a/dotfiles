@@ -13,6 +13,8 @@ set expandtab
 set mouse=a
 set macmeta
 
+set splitright
+
 set confirm     " Confirm quitting without saving the file
 
 set incsearch   " Incremental search

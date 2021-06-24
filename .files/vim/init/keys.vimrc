@@ -1,2 +1,2 @@
-map <C-e> :Vexplore<CR>
-imap <C-e> <C-O>:Vexplore<CR>
+map <C-e> :NERDTree<CR>
+imap <C-e> <C-O>:NERDTree<CR>
