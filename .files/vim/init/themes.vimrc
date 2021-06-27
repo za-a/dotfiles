@@ -1,21 +1,15 @@
-colorscheme IDLE
 set guifont=Monaco:h16
 set noantialias
+
 syntax on
-set hlsearch
-"set t_Co=0
-" LINES STYLE
+let python_highlight_all = 1
+set t_Co=256
+
 set linebreak
-set showbreak=↳ "linebreak symbol
 set cursorline
 set ruler
-
-" FILE BROWSER
-let g:netrw_banner = 0
-let g:netrw_liststyle = 0
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 20
+set list
+set listchars=eol:↵
 
 if has("gui_running")
     if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'

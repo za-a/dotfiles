@@ -5,7 +5,8 @@ alias dl="cd $HOME/Downloads"
 alias ds="cd $HOME/Desktop"
 
 alias zshrc="vim $HOME/.zshrc"
-alias vimrc="vim $HOME/.vim/vimrc"
+alias vimrc="cd $HOME/.vim"
+alias viminit="cd $HOME/.vim/init"
 alias brewrm="brew uninstall --zap"
 
 alias unquarantine="sudo xattr -r -d com.apple.quarantine "

@@ -23,6 +23,5 @@ Plug 'NLKNguyen/papercolor-theme' "light/dark
 
 " PLUGINS
 Plug 'jiangmiao/auto-pairs'
-Plug 'preservim/nerdtree'
 
 call plug#end()
