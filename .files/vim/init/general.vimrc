@@ -2,6 +2,9 @@
 set nocompatible
 set encoding=utf-8
 
+set ttyfast
+set splitbelow
+set splitright
 
 set nobackup
 set noswapfile

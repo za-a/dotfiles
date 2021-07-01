@@ -1,4 +1,5 @@
-map <C-e> :Vexplore<CR>
-imap <C-e> <C-O>:Vexplore<CR>
+map <C-e> ;Vexplore<CR>
+imap <C-e> <C-O>;Vexplore<CR>
 
 nnoremap ; :
+nnoremap : ;

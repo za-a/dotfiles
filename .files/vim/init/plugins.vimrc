@@ -23,5 +23,7 @@ Plug 'NLKNguyen/papercolor-theme' "light/dark
 
 " PLUGINS
 Plug 'jiangmiao/auto-pairs'
+Plug 'fadein/vim-FIGlet'
+"Plug 'spolu/dwm.vim'
 
 call plug#end()
