@@ -22,7 +22,6 @@ set expandtab
 
 set mouse=a
 set macmeta " Use Option key as Meta key in MacVim (Gvim for MacOS)
-
 set confirm     " Confirm quitting without saving the file
 
 "SEARCH OPTIONS

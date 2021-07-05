@@ -22,6 +22,8 @@ Plug 'vim-scripts/IDLE' "light
 Plug 'NLKNguyen/papercolor-theme' "light/dark
 
 " PLUGINS
+
+Plug 'wfxr/minimap.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'fadein/vim-FIGlet'
 "Plug 'spolu/dwm.vim'
