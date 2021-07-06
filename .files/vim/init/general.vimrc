@@ -2,6 +2,8 @@
 set nocompatible
 set encoding=utf-8
 
+set confirm     " Confirm quitting without saving the file
+
 set ttyfast
 set splitbelow
 set splitright
@@ -21,8 +23,7 @@ set shiftwidth=4
 set expandtab
 
 set mouse=a
-set macmeta " Use Option key as Meta key in MacVim (Gvim for MacOS)
-set confirm     " Confirm quitting without saving the file
+set macmeta     " Use Option key as Meta key in MacVim (Gvim for MacOS)
 
 "SEARCH OPTIONS
 set incsearch   " Incremental search
