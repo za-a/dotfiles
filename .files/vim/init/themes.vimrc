@@ -1,4 +1,4 @@
-set guifont=Monaco:h14
+set guifont=Monaco:h15
 set noantialias
 
 syntax on
