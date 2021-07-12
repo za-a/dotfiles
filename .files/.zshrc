@@ -27,7 +27,7 @@ mkcd () {
 }
 
 scanpdf () {
-    convert -density 150 "$1" -rotate "$([ $((RANDOM % 2)) -eq 1 ] && echo -)0.$(($RANDOM % 4 + 5))" -attenuate 0.4 +noise Multiplicative -attenuate 0.03 +noise Multiplicative -sharpen 0x1.0 -colorspace Gray scanned-"$1"
+    convert -density 150 "$1" -rotate 0.33  -attenuate 0.4 +noise Multiplicative -attenuate 0.03 +noise Gaussian -sharpen 0x1.0 -colorspace Gray scanned-"$1"
 }
 
 colorscanpdf () {
